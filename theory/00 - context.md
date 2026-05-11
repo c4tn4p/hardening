@@ -36,5 +36,21 @@ En français
 
 # Synthèse
 
+Le hardening repose sur plusieurs principes fondamentaux :
+
+- Principe du moindre privilège : chaque utilisateur, service ou processus ne dispose que des droits strictement nécessaires à son fonctionnement
+- Réduction de la surface d'attaque : moins il y a de composants exposés, moins il y a d'opportunités pour un attaquant
+- Défense en profondeur : les mesures de sécurité sont superposées, aucune couche n'est suffisante à elle seule
+- Sécurité par défaut : tout ce qui n'est pas explicitement autorisé est interdit
+
 Le hardening consiste à augmenter le niveau de sécurité d'un système en réduisant sa surface d'attaque. La surface d'attaque d'un système est la somme de ses vecteurs d'attaques.
+
+| Ce que le hardening N'est PAS | Et pourquoi c'est important de le préciser ! |
+|---|---|
+| Une solution miracle | Le hardening réduit le risque, il ne l'élimine pas |
+| Un antivirus ou un EDR | Ce sont des outils de détection/protection, complémentaires mais distincts |
+| Un audit de sécurité ou un pentest | Ces démarches évaluent la sécurité, le hardening l'améliore |
+| Un acte ponctuel | Le hardening est un processus continu, pas une case à cocher |
+| De la conformité | Être conforme à un référentiel n'implique pas forcément d'être sécurisé, et inversement |
+| Un substitut à la mise à jour des systèmes | Le patch management est un prérequis, pas une composante du hardening à proprement parler |
 
