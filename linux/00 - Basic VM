@@ -1,0 +1,45 @@
+## Set up de l'environnement
+
+### VM GNU/Linux Debian 12 - Microsoft Azure
+
+> Adapter pour Amazon Web Service
+
+> Possibilité d'utiliser une autre distribution, mais il faudra adapter !
+#### Création d'une machine virtuelle à moindre coûts via Azure Spot.
+
+**Basic**
+- (Europe) West Europe
+- No infrastructure redundancy required
+- Trusted launch virtual machines
+- Debian 12 "Bookworm" - x64 Gen2
+- x64
+- Run with Azure Spot discount
+	- Capacity only
+	- Stop / Deallocate
+- Standard_DS1_v2 - 1 vcpu, 3.5 GiB memory ($0.00884/hour)
+- Administrator account
+	- Password
+- Allow selected ports
+	- Select inbound ports
+
+**Disks**
+- Image default (30 GiB)
+- Standard HDD (locally-redundant storage)
+
+**Networking**
+- New virtual network
+- Public IP
+- NIC network security group
+	- Advanced
+- Load balancing options
+#### Connexion via ssh
+
+- Comment feriez-vous pour surveiller l'activité du service SSH ?
+- Est-ce qu'il est possible de voir les mots de passes renseignés par les attaquants ?
+- Lancer une capture de paquets sur le reste de la journée et de la nuit.
+- Quel est la différence entre les les logs auth.logs et les données recueillies via TCPDUMP ?
+
+## Pour aller plus loin
+
+- [Hardening Basics Part 1](https://tryhackme.com/room/hardeningbasicspart1)
+- [Hardening Basics Part 2](https://tryhackme.com/room/hardeningbasicspart2) 
