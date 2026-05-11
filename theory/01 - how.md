@@ -22,3 +22,7 @@
 - Faut-il prioriser la réduction des surfaces d’attaque ou la surveillance des vecteurs d’attaque ?
 - À votre avis, quelles mesures de renforcement sont **sous-estimées** en entreprise ? Pourquoi ?
 - Le durcissement d’un système peut-il nuire à sa disponibilité ou à son usage par les équipes ? Donnez un exemple.
+
+## CIA
+
+- [Security Principles](https://tryhackme.com/room/securityprinciples)
