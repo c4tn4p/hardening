@@ -1,5 +1,10 @@
 # Définitions
 
+## Pourquoi en parler ?
+
+- [cyber.gouv.fr/reglementation/cybersecurite-des-produits/cyber-resilience-act/](cyber.gouv.fr/reglementation/cybersecurite-des-produits/cyber-resilience-act/)
+- [www.watchguard.com/fr/wgrd-news/blog/comprendre-les-differences-entre-le-reglement-dora-et-la-directive-nis-2](www.watchguard.com/fr/wgrd-news/blog/comprendre-les-differences-entre-le-reglement-dora-et-la-directive-nis-2)
+
 ## Hardening - *Durcissement*
 
 [Wikipedia says](https://en.wikipedia.org/wiki/Hardening_(computing))
